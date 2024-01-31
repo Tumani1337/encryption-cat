@@ -6,7 +6,7 @@ def encryption_name(name: str) -> int:
     return final_num_str
 
 
-def decoding_str(string):
+def decoding_str(string: str) -> str:
     decoded_str = ''
     last_symbol_index = -1
     for i in range(len(string)):
@@ -23,3 +23,7 @@ def decoding_str(string):
 
 def encryption_num(num: int) -> str:
     return chr(num)
+
+
+def decoding_num(symbol: str) -> int:
+    return ord(symbol)
