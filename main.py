@@ -19,3 +19,7 @@ def decoding_str(string):
                 last_symbol_index = i
             decoded_str += decoded_symbol
     return decoded_str
+
+
+def encryption_num(num: int) -> str:
+    return chr(num)
